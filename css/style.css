@@ -1,0 +1,30 @@
+.debug {
+  background-color: rgba(19, 171, 44, 0.2);
+  border: 1px solid black;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+}
+
+main {
+  height: calc(100vh - 70px);
+}
+
+#sidebar {
+  width: 70px;
+  height: 100%;
+}
+
+.content {
+  width: 100%;
+  overflow: auto;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+  #sidebar {
+    width: 150px;
+  }
+}
