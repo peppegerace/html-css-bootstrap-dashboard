@@ -105,7 +105,165 @@
     </div>
   </div>
 
+  <!-- content -->
   <div class="content">
+
+    <div class="content-top">
+      <div class="container-fluid">
+        <div class="row-content">
+
+          <div class="col-content">
+            
+            <span class=" me-3">Nuovo Studente</span>
+            <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+
+            <!-- offcanvas -->
+            <div class="offcanvas offcanvas-end custom-offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+
+                <!-- enter name -->
+                <div class="container-fluid mb-3">
+                  <div class="row row-cols-2">
+
+                    <div class="col">
+                      <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1">
+                    </div>
+
+                    <div class="col">
+                      <label for="lastname" class="form-label">Cognome</label>
+                      <input type="text" class="form-control" id="lastname">
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- enter email -->
+                <div class="container-fluid mb-3">
+                  <div class="row row-cols-2">
+  
+                    <div class="col">               
+                      <label for="addon-wrapping" class="form-label">Email</label>
+                      <div class="input-group">
+                        <span class="input-group-text" id="addon-wrapping">@</span>
+                        <input type="email" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">       
+                      </div>
+                    </div>
+  
+                    <div class="col">
+                      <label for="password-form" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="password-form">
+                    </div>
+                    
+                  </div>
+                </div>
+
+                <!-- enter address -->
+                <div class="container-fluid mb-3">
+                  <div>
+                    <label for="address" class="form-label">Indirizzo</label>
+                    <input type="text" class="form-control" id="address">
+                  </div>
+                </div>
+
+                <!-- enter city -->
+                <div class="container-fluid mb-3">
+                  <div class="row">
+
+                    <div class="col-6">
+                      <label for="city" class="form-label">Città</label>
+                      <input type="text" class="form-control" id="city">
+                    </div>
+
+                    <div class="col-4">
+                      <label for="select-country" class="form-label">Stato</label>
+                      <select class="form-select" id="select-country" aria-label="Example select with button addon">
+                        <option selected>Scegli...</option>
+                        <option value="1">Italia</option>
+                        <option value="2">Spagna</option>
+                        <option value="3">Inghilterra</option>
+                      </select>    
+                    </div>
+
+                    <div class="col-2">
+                      <label for="cap" class="form-label">Cap</label>
+                      <input type="text" class="form-control" id="cap">
+                    </div>
+
+                  </div>
+                </div>
+
+                <!-- file -->
+                <div class="container-fluid">
+
+                  <div class="mb-3">
+                    <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                  </div>
+
+                  <div class="mb-3">
+                    <input type="checkbox">
+                    <span>Seleziona per proseguire</span>
+                  </div>
+
+                  <div class="mb-3">
+                    <button class="btn btn-primary">Salva</button>
+                    <button class="btn btn-warning">Svuota</button>
+                  </div>
+
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-content">
+
+            <span>Studenti online negli ultimi 30 minuti</span>
+            <span class="fw-bold fs-3 d-block">125</span>
+
+          </div>
+
+
+          <div class="col-content">
+
+            <div>
+              <span class="fs-2">Boolean</span>
+              <a href="#">
+                <span class="badge color-badge">Piano blaze</span>
+              </a>
+            </div>
+
+            <div>
+              <a href="#">
+                <span class="badge color-badge">3 app</span>
+              </a>
+              <span> &#187; </span>
+              <a href="#">
+                <span class="badge color-badge d-md-none"><i class="fa-solid fa-plus"></i></span>
+              </a>
+              <a href="#">
+                <span class="badge color-badge d-none d-md-inline">Boolean mobile app</span>
+              </a>
+              <a href="#">
+                <span class="badge color-badge d-none d-md-inline">Boolean web app</span>
+              </a>
+              <a href="#">
+                <span class="badge color-badge d-none d-md-inline">Boolean blog app</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="content-bottom debug">
+      
+    </div>
     
   </div>
 
