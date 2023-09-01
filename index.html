@@ -18,16 +18,49 @@
 </head>
 <body>
   
-<header class="debug">
+<header>
 
   <div class="container-fluid h-100">
     <div class="row flex-nowrap align-items-center h-100">
-      <div class="col debug">LOGO</div>
-      <div class="col debug">BARRA DI RICERCA</div>
-      <div class="col debug">DROPDOWN</div>
+
+      <div class="col">
+        <div class="logo d-none d-md-block ">
+          <img src="img/logo.svg" alt="logo">
+        </div>
+        <div class="logo-mobile d-md-none ">
+          <img src="img/mobile-logo.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-8 col-sm-9 col-md-7 col-lg-9">
+        <div class="input-group">
+          <span class="input-group-text bg-color-grey" id="basic-addon1"><i class="fa-solid fa-magnifying-glass "></i></span>
+          <input type="text" class="form-control bg-color-grey" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+        </div>    
+      </div>
+
+      <div class="col">
+        <div class="dropstart d-flex flex-row align-items-center justify-content-end ">
+          <div class="disappear-font d-flex flex-row d-none d-md-block text-end">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-circle-question ms-2"></i>
+            <i class="fa-solid fa-ellipsis-vertical ms-2"></i>
+          </div>
+          
+          <button type="button" class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-bell"></i>
+          </button>
+    
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Profilo</a></li>
+            <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+
     </div>
   </div>
-
 
 </header>
 

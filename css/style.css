@@ -3,11 +3,40 @@
   border: 1px solid black;
 }
 
+/* HEADER */
 header {
   height: 70px;
   width: 100%;
+  color: #5b5858 ;
 }
 
+.disappear-font {
+  width: 80px;
+}
+
+.logo-mobile {
+  width: 50px;
+}
+
+.logo-mobile img {
+  width: 100%;
+}
+
+.bg-color-grey {
+  background-color: #e5e5e5;
+}
+
+.bg-color-grey:focus {
+  background-color: #e5e5e5;
+  border: 1px solid #e5e5e5;
+  box-shadow: none;
+}
+
+.fa-bell{
+  color: #ff8f00;
+}
+
+/* MAIN */
 main {
   height: calc(100vh - 70px);
 }
