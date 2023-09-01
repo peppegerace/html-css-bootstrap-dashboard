@@ -18,6 +18,14 @@ header {
   color: #5b5858 ;
 }
 
+.col-elastic {
+  width: calc(100% - 100px);
+}
+
+.col-custom {
+  width: 50px;
+}
+
 .disappear-font {
   width: 80px;
 }
@@ -101,5 +109,13 @@ main {
     width: 100px;
     padding: 2px;
     margin-left: 10px;
+  }
+
+  .col-custom {
+    width: 150px;
+  }
+
+  .col-elastic {
+    width: calc(100% - 300px);
   }
 }
