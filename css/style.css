@@ -3,6 +3,14 @@
   border: 1px solid black;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* HEADER */
 header {
   height: 70px;
@@ -44,6 +52,37 @@ main {
 #sidebar {
   width: 70px;
   height: 100%;
+  background-color: #051e34;
+  background-image: url(/img/sidebar-bg.png);
+  color: white;
+}
+
+.sidebar_top ul {
+  padding-left: 0;
+}
+
+.sidebar_top li {
+  margin-bottom: 10px;
+}
+
+.sidebar_top li a {
+  color: white;
+}
+
+
+.sidebar_top li:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.custom-button {
+  border: none;
+  border-radius: 0;
+}
+
+.custom-button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  border-radius: 0;
 }
 
 .content {
@@ -55,5 +94,12 @@ main {
 @media screen and (min-width: 768px) {
   #sidebar {
     width: 150px;
+  }
+
+  .sidebar_top li {
+    margin-bottom: 10px;
+    width: 100px;
+    padding: 2px;
+    margin-left: 10px;
   }
 }
