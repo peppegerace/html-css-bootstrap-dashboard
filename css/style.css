@@ -136,6 +136,7 @@ main {
 .custom-card {
   border: 1px solid #5b5858;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .custom-card-title {
