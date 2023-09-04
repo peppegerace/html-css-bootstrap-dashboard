@@ -75,10 +75,11 @@ main {
 
 .sidebar_top li a {
   color: white;
+  padding: 2px 6px;
 }
 
 
-.sidebar_top li:hover {
+.sidebar_top li:hover a{
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -175,6 +176,11 @@ main {
 .custom-badge {
   color: white;
   background-color: #ffc107;
+}
+
+img {
+  width: 100%;
+  
 }
 
 /* MEDIA QUERIES */
