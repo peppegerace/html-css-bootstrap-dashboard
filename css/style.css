@@ -1,14 +1,16 @@
-.debug {
-  background-color: rgba(19, 171, 44, 0.2);
-  border: 1px solid black;
-}
-
+/* General Properties */
 li {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* HEADER */
@@ -55,6 +57,7 @@ header {
 /* MAIN */
 main {
   height: calc(100vh - 70px);
+  background-color: #f8f9fa;
 }
 
 #sidebar {
@@ -135,7 +138,7 @@ main {
 }
 
 .custom-card {
-  border: 1px solid #5b5858;
+  border: 1px solid lightgrey;
   border-radius: 10px;
   margin-bottom: 20px;
 }
@@ -144,7 +147,7 @@ main {
   background-color: #f7f7f7;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  border-bottom: 1px solid #5b5858;
+  border-bottom: 1px solid lightgrey;
 }
 
 .custom-card-content {
@@ -153,6 +156,8 @@ main {
   border-bottom-right-radius: 10px;
 }
 
+.stats,
+.stats-content img,
 .custom-card-title,
 .custom-card-content {
   padding: 10px;
@@ -178,10 +183,24 @@ main {
   background-color: #ffc107;
 }
 
-img {
-  width: 100%;
-  
+.stats {
+  background-color: white;
 }
+
+.stats-content {
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  font-size: .9rem;
+}
+
+.stats-content .list-custom {
+  border-top: 1px solid lightgrey;
+}
+
+.stats-content div a {
+  text-decoration: underline;
+}
+
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 768px) {
