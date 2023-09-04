@@ -118,7 +118,7 @@
             <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
 
             <!-- offcanvas -->
-            <div class="offcanvas offcanvas-end custom-offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <form class="offcanvas offcanvas-end custom-offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
               <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -209,14 +209,14 @@
                   </div>
 
                   <div class="mb-3">
-                    <button class="btn btn-primary">Salva</button>
-                    <button class="btn btn-warning">Svuota</button>
+                    <button class="btn btn-primary" type="submit" form="offcanvasRight">Salva</button>
+                    <button class="btn btn-warning" type="reset" form="offcanvasRight">Svuota</button>
                   </div>
 
                 </div>
                 
               </div>
-            </div>
+            </form>
           </div>
 
 
